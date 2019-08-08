@@ -14,12 +14,8 @@ printMyArgument('This documentation tool is amazeballs! :O')
 
 ```bash
 >> This documentation tool is amazeballs! :O
->> Did I bring anything?
+>> Did I break anything?
 ```
 
-This comes from the code editor // Niklas
-
-
-
-We are trying to mess this up. Lets see how messed up it can get
+We are testing this again 
 
