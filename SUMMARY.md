@@ -5,7 +5,6 @@
 ## Overview
 
 * [Getting started](overview/getting_started.md)
-* [Untitled](overview/untitled.md)
 * [Step-by-step guide](overview/step-by-step-guide.md)
 
 ## API
