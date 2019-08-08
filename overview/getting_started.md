@@ -1,4 +1,4 @@
-# Quick Start
+# Getting started
 
 Oh, so you're lazy and only want to know the bare minimum of what our system requires..?
 
