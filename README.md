@@ -2,10 +2,6 @@
 
 Hello and welcome to this awesome documentation page provided by Instantor! Here you will find information on how to integrate with and use the Instantor iFrame.
 
-
-
-editing test
-
 ```javascript
 const printMyArgument = (argument) => {
     console.log(argument)
