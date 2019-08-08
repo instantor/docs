@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Introduction](introduction.md)
-* [Quick Start](quickStart.md)
+* [Introduction](README.md)
+* [Quick Start](quick.md)
 
