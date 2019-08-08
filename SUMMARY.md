@@ -16,4 +16,6 @@
   * [.userParam](api/javascript-api/.userparam.md)
   * [.transactionParam](api/javascript-api/.transactionparam.md)
   * [.frameParam](api/javascript-api/.frameparam.md)
+  * [.listener](api/javascript-api/.listener.md)
+  * [.attachEventListener](api/javascript-api/.attacheventlistener.md)
 
