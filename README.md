@@ -5,5 +5,5 @@ Welcome to the Instantor documentation page! Here you can find all the informati
 | Glossary |   |
 | :--- | :--- |
 | End user | The person interacting with the frame. |
-| Lending Institution | Instantor's business partner integrating the frame into their UX |
+| Lending Institution | Banks, financial service providers and FinTech's partnering with Instantor. |
 
