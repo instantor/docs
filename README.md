@@ -1,11 +1,9 @@
 # Introduction
 
-Hello and welcome to this awesome documentation page provided by Instantor! Here you will find information on how to integrate with and use the Instantor frame on your own website. 
-
-
+Welcome to the Instantor documentation page! Here you can find all the information on how to integrate with and use the Instantor frame on your own website. This document explains how to work with our API, the data you can access with it and how to integrate our iFrame. 
 
 | Glossary |   |
 | :--- | :--- |
-| End user | The end user interacting with the frame. |
-| Client | The business partner of Instantor, integrating the frame into their UX |
+| End user | The person interacting with the frame. |
+| Lending Institution | Instantor's business partner integrating the frame into their UX |
 
