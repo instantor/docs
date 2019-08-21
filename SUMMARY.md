@@ -7,14 +7,14 @@
 * [Getting started](overview/getting_started.md)
 * [Step-by-step guide](overview/step-by-step-guide.md)
 
-## API
+## Javascript API
 
-* [Javascript API](api/javascript-api/README.md)
-  * [Constructor](api/javascript-api/constructor.md)
-  * [.load](api/javascript-api/.load.md)
-  * [.userParam](api/javascript-api/.userparam.md)
-  * [.transactionParam](api/javascript-api/.transactionparam.md)
-  * [.frameParam](api/javascript-api/.frameparam.md)
-  * [.listener](api/javascript-api/.listener.md)
-  * [.attachEventListener](api/javascript-api/.attacheventlistener.md)
+* [Introduction](javascript-api/introduction.md)
+* [Constructor](javascript-api/constructor.md)
+* [.load](javascript-api/.load.md)
+* [.userParam](javascript-api/.userparam.md)
+* [.transactionParam](javascript-api/.transactionparam.md)
+* [.frameParam](javascript-api/.frameparam.md)
+* [.listener](javascript-api/.listener.md)
+* [.attachEventListener](javascript-api/.attacheventlistener.md)
 
