@@ -4,23 +4,11 @@ description: THIS PAGE NEEDS UPDATING
 
 # Getting started
 
-Oh, so you're lazy and only want to know the bare minimum of what our system requires..?
+### Pre-requisites
 
-### To integrate the Instantor iFrame you will need: 
+Getting started with Instantor's services requires the following, all of which are received when partnering with Instantor:
 
-* a basic knowledge of HTML, CSS and JavaScript
-* access to files on your server
-* a code editor.
-
-### Business related pre-requisites
-
-* Product key
-* Money in the bank
-
-### Technical pre-requisites
-
-* Jquery? _jQuery behövs INTE i nya framen, men måste finnas för att använda gamla._
-
-  
-
+* a **product key** which identifies the lending institution towards Instantor.
+* an **API key** which is used to decipher the encrypted reports
+* an **Endpoint** that receives the encrypted reports, the URL or IP of which delivered to Instantor.
 
