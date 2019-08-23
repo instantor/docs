@@ -8,6 +8,7 @@ Welcome to the Instantor API documentation page! Here you can find all the infor
 
 | Glossary |   |
 | :--- | :--- |
+| Frame / iFrame | The 'widget' providing |
 | End user | The person interacting with the frame. |
 | Lending Institution | Banks, financial service providers and FinTech's partnering with Instantor. |
 
