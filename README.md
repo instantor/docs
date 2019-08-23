@@ -6,7 +6,7 @@ description: THIS PAGE NEEDS SOM UPDATING
 
 Welcome to the Instantor API documentation page! Here you can find all the information on how to integrate with and use the Instantor iFrame on your website.
 
-|  | Glossary |
+| Glossary |  |
 | :--- | :--- |
 | Frame / iFrame | The 'widget' integrated into the lending institutions website, providing access to Instantor's services. |
 | End user | The person interacting with the frame. |
