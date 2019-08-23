@@ -14,7 +14,7 @@ Welcome to the Instantor API documentation page! Here you can find all the infor
 
 #### Want to use Instantor's services?
 
-Reach out to our team at https://www.instantor.com/ or send us an email at [commercial@instantor.com](mailto:commercial@instantor.com)
+Reach out to our team at [our website](https://www.instantor.com/) or [send us an email](mailto:commercial@instantor.com)
 
 
 
