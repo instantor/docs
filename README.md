@@ -4,17 +4,19 @@ description: THIS PAGE NEEDS SOM UPDATING
 
 # Introduction
 
-Welcome to the Instantor API documentation page! Here you can find all the information on how to integrate with and use the Instantor frame on your own website. 
+Welcome to the Instantor API documentation page! Here you can find all the information on how to integrate with and use the Instantor iFrame on your website. 
 
 | Glossary |   |
 | :--- | :--- |
-| Frame / iFrame | The 'widget' providing |
+| Frame / iFrame | The 'widget', or graphic element, providing access to Instantor's services. |
 | End user | The person interacting with the frame. |
 | Lending Institution | Banks, financial service providers and FinTech's partnering with Instantor. |
 
-### Setting-up your Instantor account
+#### Want to use Instantor's services?
 
-Do you want to test out Instantor? 
+Reach out to our team at https://www.instantor.com/ or send us an email at [commercial@instantor.com](mailto:commercial@instantor.com)
 
-You first need to contact our [team](https://www.instantor.com/instantor-demo/). We will send you  an API name and a secret API key. The API name and API key will be used in all communication with Instantor for identification, verification and security purposes.
+
+
+
 
