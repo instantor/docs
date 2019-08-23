@@ -19,5 +19,8 @@ Oh, so you're lazy and only want to know the bare minimum of what our system req
 
 ### Technical pre-requisites
 
-* Jquery?
+* Jquery? _jQuery behövs INTE i nya framen, men måste finnas för att använda gamla._
+
+  
+
 
