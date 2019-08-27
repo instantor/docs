@@ -3,7 +3,7 @@
 The Instantor object constructor accepts one argument -- the product key.
 
 ```javascript
-Instantor(productKey)
+new Instantor(productKey)
 ```
 
 | Arguments | Description |
