@@ -1,16 +1,16 @@
+---
+description: >-
+  This page provides step-by-step instructions on how to integrate the Instantor
+  iframe into your website.
+---
+
 # Step-by-step guide
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+{% hint style="warning" %}
+ **Take care!** Disclaimer stuff goes here 💩 
 {% endhint %}
+
+
 
 Once you're strong enough, save the world:
 
