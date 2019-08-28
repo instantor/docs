@@ -42,6 +42,8 @@ description: >-
 
 ### Step 3 - Add iframe DOM element target
 
+_NOTE: HERE WE NEED TO DECIDE WHAT STYLING THE ITOR-DIV REQUIRES. THE NEW FRAME REQUIRES SOME, CURRENTLY, BUT THE OLD REQUIRES NONE._
+
 ```markup
 <!DOCTYPE html>
 <html lang="en">
