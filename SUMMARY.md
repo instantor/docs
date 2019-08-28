@@ -17,4 +17,5 @@
 * [.frameParam](javascript-api/.frameparam.md)
 * [.listener](javascript-api/.listener.md)
 * [.attachEventListener](javascript-api/.attacheventlistener.md)
+* [Other methods](javascript-api/other-methods.md)
 
