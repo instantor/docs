@@ -116,8 +116,16 @@ There are three different parameters that can be set: [user parameters](../javas
     ready(() => {
         try {
             const instantor = new Instantor('product-key.de')
-
-            /* Load the Instantor iframe into the targeted DOM element */
+            
+            /* Set relevant parameters */
+            instantor.userParam('uniqueID', '00000-000-0000')
+            instantor.userParam('environment', 'dev')
+            instantor.userParam('foo', 'bar')
+            
+            instantor.transactionParam('identificationOnly', true)
+            
+            instantor.frameParam('bankID', 'id-of-bank')
+            
             instantor.load('#itor')
         } catch (err) { console.log('Something went wrong: ', err) }
     })
