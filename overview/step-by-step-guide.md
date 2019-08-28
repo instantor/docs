@@ -26,7 +26,7 @@ description: >-
 ### Step 2 - Include Jquery and Instantor loader script
 
 {% hint style="warning" %}
-_NOTE: HERE WE NEED TO CLEAR WHICH URL TO USE TO FETH THE LOADER. IF THE INFO EXISTS IN .LOAD, WE COULD HAVE A LINK IN THIS HINT?_
+_NOTE: HERE WE NEED TO CLARIFY WHICH URL TO USE TO FETH THE LOADER. IF THE INFO EXISTS IN .LOAD, WE COULD HAVE A LINK IN THIS HINT?_
 {% endhint %}
 
 ```markup
