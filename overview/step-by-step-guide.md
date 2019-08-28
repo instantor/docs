@@ -104,6 +104,51 @@ Ensure you use the appropriate product key and target DOM element in this step.
 
 ### Step 5 - Attach parameters
 
+There are three different parameters that can be set: [user parameters](../javascript-api/.userparam.md), [transaction parameters](../javascript-api/.transactionparam.md) and [frame parameters](../javascript-api/.frameparam.md), all of which are optional. 
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="https://www.instantor.se/awesomeLoaderByPalm.min.js"></script>
+    <script type="text/javascript">
+    ready(() => {
+        try {
+            const instantor = new Instantor('product-key.de')
+
+            /* Load the Instantor iframe into the targeted DOM element */
+            instantor.load('#itor')
+        } catch (err) { console.log('Something went wrong: ', err) }
+    })
+    </script>
+</head>
+
+<body>
+    <h1>Welcome to my site!</h1>
+    <div 
+        id="itor" 
+        style="height: 900px; display: flex; flex-direction: column;" 
+    />
+</body>
+
+</html>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
