@@ -6,9 +6,15 @@ description: DO WE WANT MORE INFO HERE?
 
 ### Pre-requisites
 
-Getting started with Instantor's services requires the following, all of which are received when partnering with Instantor:
+Getting started with Instantor's services requires the following; 
 
-* A **product key** which identifies the lending institution towards Instantor.
-* An **API key** which is used to decipher the encrypted reports.
-* An **endpoint** that can receive the encrypted reports.
+The following will be provided to you by Instantor AB tech support:
+
+* A **product key** which identifies you as a customer towards Instantor.
+* A **decryption key** which is used to decipher the encrypted reports.
+
+You are required to provide:
+
+* An **endpoint,** within your IT infrastructure, that can receive the encrypted reports, also referred to as callback url.
+* An **email address** dedicated to receive tech notification emails.
 
