@@ -1,13 +1,13 @@
 ---
 description: >-
   A warm welcome to Instantor, we hope to have you up and running with our
-  product soon. Please find the description of Instantor workflow and
-  instructions for integration below.
+  product soon. Here you can find all the information on how to integrate with
+  and use the Instantor iFrame on your website.
 ---
 
 # Introduction
 
-Welcome to the Instantor API documentation page! Here you can find all the information on how to integrate with and use the Instantor iFrame on your website. This documentation consists of two parts, the integration of our end-user facing frontend solution into your website and the delivery of our reports to you.
+This documentation consists of two parts, the integration of our end-user facing frontend solution into your website and the delivery of our reports to you.
 
 | Glossary |  |
 | :--- | :--- |
