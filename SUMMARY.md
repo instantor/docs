@@ -19,3 +19,8 @@
 * [.attachEventListener](javascript-api/.attacheventlistener.md)
 * [Other methods](javascript-api/other-methods.md)
 
+## Report delivery
+
+* [Introduction](report-delivery/introduction.md)
+* [Step-by-step guide](report-delivery/step-by-step-guide.md)
+
