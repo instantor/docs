@@ -1,7 +1,3 @@
----
-description: DO WE WANT MORE INFO HERE?
----
-
 # Getting started
 
 ### Pre-requisites

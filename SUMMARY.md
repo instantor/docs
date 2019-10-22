@@ -5,7 +5,7 @@
 ## Overview
 
 * [Getting started](overview/getting_started.md)
-* [Step-by-step guide](overview/step-by-step-guide.md)
+* [Step-by-step guide for iFrame](overview/step-by-step-guide.md)
 
 ## Javascript API
 

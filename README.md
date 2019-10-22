@@ -9,6 +9,12 @@ description: >-
 
 Welcome to the Instantor API documentation page! Here you can find all the information on how to integrate with and use the Instantor iFrame on your website. This documentation consists of two parts, the integration of our end-user facing frontend solution into your website and the delivery of our reports to you.
 
+The frontend facing solution you will integrate by embedding a code snippet on your website within your loan application flow. 
+
+Data collected from the bank will be encrypted and send as HTTP POST request to customer's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. 
+
+Once you have received the report in a JSON object, you will be able to use your decision engine based on the data we provide.  
+
 | Glossary |  |
 | :--- | :--- |
 | Frame / iFrame | The 'widget' integrated into the _customer's_ website, providing access to Instantor's services. |
@@ -18,7 +24,7 @@ Welcome to the Instantor API documentation page! Here you can find all the infor
 | Decryption key | A key used to decrypt the report delivered to you |
 | Callback URL | An endpoint ****within your IT infrastructure, that can receive the encrypted reports |
 
-### PICTURE INSTANTOR FLOW WAITING FOR BOWEN
+![](.gitbook/assets/instantor-sales-how-it-works.jpg)
 
 ### Not already a customer?
 
