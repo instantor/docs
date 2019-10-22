@@ -6,18 +6,22 @@ description: >-
 
 # Step-by-step guide for iFrame
 
-### Step 1 - Load **prerequisites** – jQuery library
+### Step 1 - Loading **prerequisites** – jQuery library
 
-Instantor script needs some prerequisites for its work – [jQuery library](http://jquery.com/). You can link it from whatever location suits your needs, either locally cached on your server, or from public CDN \(for example, [from Google's CDN](https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js)\).
+The Instantor script requires a [jQuery library](http://jquery.com/). You can link it from whatever location suits your needs, either locally cached on your server, or from public CDN \(for example, [from Google's CDN](https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js)\). Example of Google hosted jQuery library:
+
+```text
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+```
 
 {% hint style="warning" %}
- **Heads-up!**  
-Be sure to load jQuery using HTTPS protocol! You can use your own, local copy, or one provided by CDN \(like in this code snippet example\). **Version 1.7+ is required.** 
+**Heads-up!**  
+Be sure to load the jQuery library using a HTTPS protocol! **jQuery version 1.7+ is required.** 
 {% endhint %}
 
-### Step 2 - **Add** DOM element for the frame
+### Step 2 - **Place the Instantor iFrame on your website**
 
-Instantor iFrame requires a DOM element in your HTML code where it will get injected. That can be any block-level HTML element – for example, `<div>`, or `<section>`. This block level HTLM element should contain `id="itor"`
+The Instantor iFrame requires a DOM element in your HTML code where it will get injected. That can be any block-level HTML element – for example, a `<div>`, or `<section>` element. This block level HTLM element should contain `id="itor"`
 
 For example, put `<div>` with ID `itor` somewhere in your HTML:
 
@@ -26,7 +30,7 @@ For example, put `<div>` with ID `itor` somewhere in your HTML:
 ```
 
 {% hint style="warning" %}
-Please, make sure your CSS code is not interfering with Instantor iframe, nor with iframe-containing DOM element – do not limit heights, the script will actively resize iframe height to match inner content height.
+Please, make sure your CSS code is not interfering with the Instantor iframe, nor with any iframe-containing DOM element – do not limit heights, the script will actively resize iframe height to match inner content height.
 {% endhint %}
 
 ### Step 3 - Linking the script
