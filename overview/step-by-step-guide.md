@@ -29,6 +29,17 @@ description: >-
 _NOTE: HERE WE NEED TO CLARIFY WHICH URL TO USE TO FETH THE LOADER. IF THE INFO EXISTS IN .LOAD, WE COULD HAVE A LINK IN THIS HINT?_
 {% endhint %}
 
+## Linking the script
+
+  
+&lt;script type="text/javascript" src="[https://frame.euc1.instantor.com/instantor-0.7.3.min.js](https://frame.euc1.instantor.com/instantor-0.7.3.min.js)"&gt;&lt;/script&gt;
+
+  
+&lt;script type="text/javascript" src="[https://frame.use2.instantor.com/instantor-0.7.3.min.js](https://frame.use2.instantor.com/instantor-0.7.3.min.js)"&gt;&lt;/script&gt;
+
+  
+&lt;script type="text/javascript" src="[https://frame.apse1.instantor.com/instantor-0.7.3.min.js](https://frame.apse1.instantor.com/instantor-0.7.3.min.js)"&gt;&lt;/script&gt;
+
 ```markup
 <!DOCTYPE html>
 <html lang="en">
