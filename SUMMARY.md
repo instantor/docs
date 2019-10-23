@@ -5,6 +5,7 @@
 ## Overview
 
 * [Getting started](overview/getting_started.md)
+* [Step-by-step guide](implementing-iframe/step-by-step-guide.md)
 
 ## Implementing iFrame
 
