@@ -8,7 +8,7 @@ new Instantor(productKey)
 
 | Arguments | Description |
 | :--- | :--- |
-| **productKey** \(string\) | Main source of identification, received when partnering with Instantor. |
+| **Product Key**  | Main source of identification, received when partnering with Instantor. |
 
 ### Example
 
