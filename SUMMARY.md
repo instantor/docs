@@ -23,5 +23,6 @@
 
 * [Introduction](report-delivery/introduction.md)
 * [Delivery methods](report-delivery/step-by-step-guide.md)
-* [Untitled](report-delivery/untitled.md)
+* [Report example](report-delivery/untitled.md)
+* [Report status meaning](report-delivery/report-status-meaning.md)
 
