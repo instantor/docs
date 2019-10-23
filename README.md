@@ -9,7 +9,7 @@ description: >-
 
 Welcome to the Instantor API documentation page! Here you can find all the information on how to integrate with and use the Instantor iFrame on your website. This documentation consists of two parts, the integration of our end-user facing frontend solution into your website and the delivery of our reports to you.
 
-The frontend facing solution you will integrate by embedding a code snippet on your website within your loan application flow. 
+The frontend facing solution you will integrate by embedding a code snippet on your website within your loan application flow.
 
 Data collected from the bank will be encrypted and send as HTTP POST request to customer's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. 
 

@@ -1,6 +1,6 @@
 # Getting started
 
-### Pre-requisites
+### Prerequisites
 
 Getting started with Instantor's services requires the following; 
 
