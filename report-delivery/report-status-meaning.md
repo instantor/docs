@@ -1,5 +1,7 @@
 ---
-description: 'Each report will contain report status, which you will find under "basicInfo".'
+description: >-
+  Each report will contain report status, which you will find under
+  "processStatus".
 ---
 
 # Report status meaning
