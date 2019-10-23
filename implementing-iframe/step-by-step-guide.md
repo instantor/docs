@@ -4,7 +4,7 @@ description: >-
   iframe into your website.
 ---
 
-# Step-by-step guide for iFrame
+# Step-by-step guide
 
 ### Step 1 - Loading **prerequisites** – jQuery library
 
