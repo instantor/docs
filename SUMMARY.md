@@ -22,5 +22,6 @@
 ## Report delivery
 
 * [Introduction](report-delivery/introduction.md)
-* [Step-by-step guide](report-delivery/step-by-step-guide.md)
+* [Delivery methods](report-delivery/step-by-step-guide.md)
+* [Untitled](report-delivery/untitled.md)
 
