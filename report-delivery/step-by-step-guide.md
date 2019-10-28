@@ -44,3 +44,11 @@ OK: msg-154c798aa69-1463637551721
 
 ### SFTP delivery
 
+Reports can be delivered to your server by SFTP. Please provide an endpoint and credentials so that we can configure our system appropriately.   
+  
+You are required to host the SFTP server yourself. 
+
+{% hint style="info" %}
+This delivery method is mandatory if you are receiving a human-read PDF report instead of a JSON file. 
+{% endhint %}
+
