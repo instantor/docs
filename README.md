@@ -1,7 +1,7 @@
 ---
 description: >-
   A warm welcome to Instantor, we hope to have you up and running with our
-  product soon. Please find the description of Instantor workflow and
+  product soon. Please find a description of the Instantor workflow and
   instructions for integration below.
 ---
 
@@ -11,9 +11,7 @@ Welcome to the Instantor API documentation page! Here you can find all the infor
 
 The frontend facing solution you will integrate by embedding a code snippet on your website within your loan application flow.
 
-Data collected from the bank will be encrypted and send as HTTP POST request to customer's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. 
-
-Once you have received the report in a JSON object, you will be able to use your decision engine based on the data we provide.  
+Once a loan applicant has entered the Instantor process, the data collected from the bank will be encrypted and send as HTTP POST request to a customer's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. Once you have received the report in a JSON object, you will be able to use your decision engine based on the data we provide.  
 
 | Glossary |  |
 | :--- | :--- |

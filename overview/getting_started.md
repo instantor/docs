@@ -1,3 +1,7 @@
+---
+description: A breakdown of the essentials.
+---
+
 # Getting started
 
 ### Prerequisites
