@@ -18,8 +18,8 @@ Once a loan applicant has entered the Instantor process, the data collected from
 | Frame / iFrame | The 'widget' integrated into the _customer's_ website, providing access to Instantor's services. |
 | End-user | The loan applicant interacting with the frame. |
 | Customer | Banks, financial service providers and FinTech's partnering with Instantor. |
-| Product key | A unique identifier for your product configuration |
-| Decryption key | A key used to decrypt the report delivered to you |
+| productKey | A unique identifier for your product configuration |
+| decryptionKey | A key used to decrypt the report delivered to you |
 | Callback URL | An endpoint ****within your IT infrastructure, that can receive the encrypted reports |
 
 ![](.gitbook/assets/instantor-sales-how-it-works.jpg)
@@ -28,5 +28,5 @@ Once a loan applicant has entered the Instantor process, the data collected from
 
 Reach out to our team at [our website](https://www.instantor.com/) or [send us an email](mailto:commercial@instantor.com) and we'll happily tell you more about our services.
 
-commercial@instantor.com
+[commercial@instantor.com](mailto:commercial@instantor.com)
 

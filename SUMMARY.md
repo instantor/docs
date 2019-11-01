@@ -14,11 +14,9 @@
 ## Javascript API
 
 * [Introduction](javascript-api/introduction.md)
-* [Constructor](javascript-api/constructor.md)
-* [.load](javascript-api/.load.md)
 * [.userParam](javascript-api/.userparam.md)
-* [.transactionParam](javascript-api/.transactionparam.md)
 * [.frameParam](javascript-api/.frameparam.md)
+* [.transactionParam](javascript-api/.transactionparam.md)
 * [.listener](javascript-api/.listener.md)
 * [.attachEventListener](javascript-api/.attacheventlistener.md)
 * [Other methods](javascript-api/other-methods.md)
