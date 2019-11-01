@@ -1,19 +1,14 @@
 # Table of contents
 
 * [Introduction](README.md)
-
-## Overview
-
-* [Getting started](overview/getting_started.md)
-* [Step-by-step guide](implementing-iframe/step-by-step-guide.md)
+* [Getting started](getting_started.md)
 
 ## Implementing iFrame
 
-* [Step-by-step guide](implementing-iframe/step-by-step-guide.md)
+* [A step-by-step guide](implementing-iframe/a-step-by-step-guide.md)
 
 ## Javascript API
 
-* [Introduction](javascript-api/introduction.md)
 * [.userParam](javascript-api/.userparam.md)
 * [.frameParam](javascript-api/.frameparam.md)
 * [.transactionParam](javascript-api/.transactionparam.md)

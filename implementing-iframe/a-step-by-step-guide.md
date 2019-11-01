@@ -4,13 +4,13 @@ description: >-
   iframe into your website.
 ---
 
-# Step-by-step guide
+# A step-by-step guide
 
 ### Step 1 - Loading **prerequisites** – jQuery library
 
 The Instantor script requires a [jQuery library](http://jquery.com/). You can link it from whatever location suits your needs, either locally cached on your server, or from public CDN \(for example, [from Google's CDN](https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js)\). Example of Google hosted jQuery library:
 
-```text
+```javascript
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 ```
 
@@ -25,7 +25,7 @@ The Instantor iFrame requires a DOM element in your HTML code where it will get 
 
 For example, place a `<div>` block-level HTML element with  `id="itor"` inside your HTML:
 
-```text
+```markup
 <div id="itor"></div>
 ```
 
@@ -45,7 +45,7 @@ Never copy the script to your server. The script is frequently updated to reflec
 
 #### For European markets:
 
-```text
+```javascript
 <script type="text/javascript" src="
 https://frame.euc1.instantor.com/instantor-0.7.3.min.js
 "></script>
@@ -53,7 +53,7 @@ https://frame.euc1.instantor.com/instantor-0.7.3.min.js
 
 #### For Latin American markets:
 
-```text
+```javascript
 <script type="text/javascript" src="
 https://frame.use2.instantor.com/instantor-0.7.3.min.js
 "></script>
@@ -61,7 +61,7 @@ https://frame.use2.instantor.com/instantor-0.7.3.min.js
 
 #### For South East Asian markets:
 
-```text
+```javascript
 <script type="text/javascript" src="
 https://frame.apse1.instantor.com/instantor-0.7.3.min.js
 "></script>
@@ -69,13 +69,13 @@ https://frame.apse1.instantor.com/instantor-0.7.3.min.js
 
 ### Step 4 - Initialize the Instantor object
 
-Once you have linked the script, you'll need to add another code-block to your HTML file, and initialize a new Instantor JavaScript object \(the object\). To successfully initialize the object, you need to pass the **Product Key** you received from Instantor as an argument to the object constructor. You can place the following code-block under the code-block from [Step 3 - Linking the script](step-by-step-guide.md#step-3-linking-the-script).
+Once you have linked the script, you'll need to add another code-block to your HTML file, and initialize a new Instantor JavaScript object \(the object\). To successfully initialize the object, you need to pass the **Product Key** you received from Instantor as an argument to the object constructor. You can place the following code-block under the code-block from [Step 3 - Linking the script]().
 
 {% hint style="warning" %}
 Make sure to replace `Product Key` in the example with the the Product key you have received from Instantor. When failing to do so, the Instantor script will fail to load.
 {% endhint %}
 
-```bash
+```javascript
 <script>
 try {
   var itor = new Instantor('Product Key');
@@ -88,10 +88,10 @@ try {
 To identify an end-user in your process, Instantor allows you to inject user information in the report. You can add as many user/request-specific information as you need. It will be stored as key-value pairs, and is a free-form, with some special keywords. You may find these user parameters under the **userParam: miscEntryList** section of the report you receive.
 
 {% hint style="info" %}
-The following example extends the code-block as mentioned in [Step 4 - Initialize the Instantor object](step-by-step-guide.md#step-4-initialize-the-instantor-object).
+The following example extends the code-block as mentioned in [Step 4 - Initialize the Instantor object]().
 {% endhint %}
 
-```bash
+```javascript
 <script>
 try {
   var itor = new Instantor('Product Key');
@@ -120,7 +120,7 @@ To load the Instantor iFrame on your frame, make sure `<itor>` __object has been
 The best practice is to assign `<div>` element as containing – the iFrame is block-level element, so it should be avoided injecting it into inline-level element. Use method `load` to start the injector. 
 {% endhint %}
 
-```bash
+```javascript
 <script>
 try {
   var itor = new Instantor('Product Key');
@@ -138,30 +138,6 @@ try {
 {% hint style="danger" %}
 Provided target DOM element should be valid [jQuery selector](http://api.jquery.com/category/selectors/). Failing to provide existing DOM element, the injector script will end with error message. Providing non-empty DOM element will result with content being overwritten by Instantor iframe.
 {% endhint %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
