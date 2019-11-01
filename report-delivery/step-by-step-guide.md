@@ -42,6 +42,32 @@ After data delivery and decryption, the customer is required to respond to the o
 OK: msg-154c798aa69-1463637551721
 ```
 
+### SDK to receive reports
+
+#### Java SDK 
+
+You can download the latest version of the Instantor Java SDK here: 
+
+{% embed url="https://instantor-api-0.4.5-java.zip" %}
+
+
+
+#### PHP SDK
+
+ You can download the latest version of the Instantor PHP SDK here
+
+{% embed url="https://instantor-api-php-0.1.4.zi" %}
+
+{% embed url="https://instantor-api-php-7.zip" %}
+
+#### .NET API 
+
+ You can download the latest version of the Instantor .NET API here
+
+{% embed url="https://instantor-api-net-0.5.zip" %}
+
+
+
 ### SFTP delivery
 
 Reports can be delivered to your server by SFTP. Please provide an endpoint and credentials so that we can configure our system appropriately.   
