@@ -28,12 +28,12 @@ Most clients require two environments - "production" and "stage", where producti
 
 ### Expected response
 
-After data delivery and decryption, the customer is required to respond to the original HTTP request with plain text message in form of OK: `<msg_id>`, where `<mesg_id>`  is unique identifier for that report and is sent as a POST parameter with key msg\_id.
+After data delivery and decryption, the customer is required to respond to the original HTTP request with plain text message in form of`OK: <msg_id>`, where `<msg_id>`  is unique identifier for that report and is sent as a POST parameter with key msg\_id.
 
 #### Example: 
 
 ```text
-...source=Product-Key&msg_id=154c798aa69-1463637551721&action=report%2Fuser%2Fdata&encryption=B64%2FMD5%2FAES%2FCBC%2FPKCS5&payload=fLaaLEvgWN9leASb0g3TNZx4yp0D4yjFcnUNpOgsIHJH9...
+...source=Product-Key&msg_id=msg-154c798aa69-1463637551721&action=report%2Fuser%2Fdata&encryption=B64%2FMD5%2FAES%2FCBC%2FPKCS5&payload=fLaaLEvgWN9leASb0g3TNZx4yp0D4yjFcnUNpOgsIHJH9...
 ```
 
 #### Expected response:
@@ -75,6 +75,6 @@ Reports can be delivered to your server by SFTP. Please provide an endpoint and 
 You are required to host the SFTP server yourself. 
 
 {% hint style="info" %}
-This delivery method is mandatory if you are receiving a human-read PDF report instead of a JSON file. 
+This delivery method is mandatory if you are receiving a human-readable PDF report instead of a JSON file.
 {% endhint %}
 
