@@ -16,12 +16,6 @@ Where payload has the following format:
 
 ```javascript
 {
-  status: true | false,
-  errorMessage: 'error message',
-  tld: {
-    name: 'TLD identification',
-    count: number
-  },
   banks: [
     {
       UUID: 'bank UUID',
@@ -29,7 +23,13 @@ Where payload has the following format:
       name: 'display bank name'
     }
     …
-  ]
+  ],
+  tld: {
+    name: 'TLD identification',
+    count: number
+  },
+  status: true | false,
+  errorMessage: 'error message'
 }
 ```
 
