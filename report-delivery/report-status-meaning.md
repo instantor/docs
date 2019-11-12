@@ -4,7 +4,7 @@ description: >-
   "processStatus".
 ---
 
-# Report status meaning
+# Report status definitions
 
 <table>
   <thead>
@@ -37,7 +37,7 @@ description: >-
     <tr>
       <td style="text-align:left">invalid_login</td>
       <td style="text-align:left">The system could not process the bank using the credentials provided by
-        the end-user.</td>
+        the customer.</td>
     </tr>
     <tr>
       <td style="text-align:left">abandoned</td>
@@ -46,7 +46,7 @@ description: >-
         <ul>
           <li>iFrame was reloaded</li>
           <li>&quot;Choose another bank&quot; button was clicked</li>
-          <li>The end-user closed the tab</li>
+          <li>The customer closed the tab</li>
           <li>Internet connection was lost</li>
         </ul>
       </td>

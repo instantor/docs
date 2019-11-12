@@ -10,7 +10,7 @@ Getting started with Instantor's services requires the following;
 
 The following will be provided to you by Instantor AB tech support:
 
-* A **product key** which identifies you as a customer towards Instantor.
+* A **product key** which identifies you as a client towards Instantor.
 * A **decryption key** which is used to decipher the encrypted reports.
 
 You are required to provide:

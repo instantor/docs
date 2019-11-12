@@ -28,7 +28,7 @@ Most clients require two environments - "production" and "stage", where producti
 
 ### Expected response
 
-After data delivery and decryption, the customer is required to respond to the original HTTP request with plain text message in form of`OK: <msg_id>`, where `<msg_id>`  is unique identifier for that report and is sent as a POST parameter with key msg\_id.
+After data delivery and decryption, the client is required to respond to the original HTTP request with plain text message in form of`OK: <msg_id>`, where `<msg_id>`  is unique identifier for that report and is sent as a POST parameter with key msg\_id.
 
 #### Example: 
 

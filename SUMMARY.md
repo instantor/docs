@@ -3,15 +3,15 @@
 * [Introduction](README.md)
 * [Getting started](getting_started.md)
 
-## Implementing iFrame
+## Widget implementation <a id="implementing-iframe"></a>
 
 * [A step-by-step guide](implementing-iframe/a-step-by-step-guide.md)
 
-## Javascript API
+## Widget configuration <a id="javascript-api"></a>
 
-* [.userParam](javascript-api/.userparam.md)
-* [.frameParam](javascript-api/.frameparam.md)
-* [.attachEventListener](javascript-api/.attacheventlistener.md)
+* [Identify your customer](javascript-api/.userparam.md)
+* [Pre-select a bank](javascript-api/.frameparam.md)
+* [Listen to Widget events](javascript-api/.attacheventlistener.md)
 * [Other methods](javascript-api/other-methods.md)
 
 ## Report delivery
@@ -19,5 +19,5 @@
 * [Introduction](report-delivery/introduction.md)
 * [Delivery methods](report-delivery/step-by-step-guide.md)
 * [Report example](report-delivery/untitled.md)
-* [Report status meaning](report-delivery/report-status-meaning.md)
+* [Report status definitions](report-delivery/report-status-meaning.md)
 
