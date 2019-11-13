@@ -93,14 +93,14 @@ The following example extends the code-block as mentioned in [Step 4 - Initializ
 
 ```javascript
 <script>
-try {
+
   var itor = new Instantor('Product Key');
 
   itor.userParam('user_identification', '12345678901');
   itor.userParam('firstName', 'NAME');
   itor.userParam('lastName', 'SURNAME');
   itor.userParam('account', '7890 7890 7890 78');
-} catch(err) {}
+
 </script>
 ```
 
@@ -122,7 +122,7 @@ The best practice is to assign `<div>` element as containing – the `<iframe>` 
 
 ```javascript
 <script>
-try {
+
   var itor = new Instantor('Product Key');
 
   itor.userParam('user_identification', '12345678901');
@@ -131,7 +131,7 @@ try {
   itor.userParam('account', '7890 7890 7890 78');
 
   itor.load('#itor');
-} catch(err) {}
+
 </script>
 ```
 
