@@ -40,14 +40,7 @@ description: >-
     </tr>
     <tr>
       <td style="text-align:left">abandoned</td>
-      <td style="text-align:left">
-        <p>Explanations for this status message could include:</p>
-        <ul>
-          <li>The customer did not continue the bank login steps,</li>
-          <li>The webpage reloaded</li>
-          <li>&quot;Choose another bank&quot; button was clicked</li>
-        </ul>
-      </td>
+      <td style="text-align:left">Widget was reloaded, or &quot;Choose another bank&quot; button was clicked.</td>
     </tr>
     <tr>
       <td style="text-align:left">blocked</td>
