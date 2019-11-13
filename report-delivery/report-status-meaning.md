@@ -17,7 +17,6 @@ description: >-
     <tr>
       <td style="text-align:left">ok</td>
       <td style="text-align:left">
-        <p></p>
         <p>Indicates that the process has finished successfully.
           <br />When list of accounts and transactions are empty there are 3 possible
           explanations:</p>
@@ -42,19 +41,13 @@ description: >-
     <tr>
       <td style="text-align:left">abandoned</td>
       <td style="text-align:left">
-        <p>Possible reasons can include:</p>
+        <p>Explanations for this status message could include:</p>
         <ul>
-          <li>iFrame was reloaded</li>
+          <li>The customer did not continue the bank login steps,</li>
+          <li>The webpage reloaded</li>
           <li>&quot;Choose another bank&quot; button was clicked</li>
-          <li>The customer closed the tab</li>
-          <li>Internet connection was lost</li>
         </ul>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">blocked</td>
-      <td style="text-align:left">Data collection process was blocked because there is a previous process
-        which is still in progress.</td>
     </tr>
   </tbody>
 </table>

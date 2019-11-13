@@ -28,5 +28,5 @@ Once a loan applicant has entered the Instantor process, the data collected from
 
 Reach out to our team at [our website](https://www.instantor.com/) or [send us an email](mailto:commercial@instantor.com) and we'll happily tell you more about our services.
 
-start@instantor.com 
+[start@instantor.com ](mailto:start@instantor.com)
 

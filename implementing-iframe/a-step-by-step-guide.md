@@ -1,7 +1,8 @@
 ---
 description: >-
   This page provides step-by-step instructions on how to integrate the Instantor
-  Widget into your website.
+  Widget into your website. The Widget allows your customers to connect to their
+  bank through Instantor.
 ---
 
 # A step-by-step guide

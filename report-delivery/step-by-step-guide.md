@@ -1,22 +1,18 @@
 ---
 description: >-
-  Instantor has two ways of delivering a report to you, using a HTTP POST
+  Instantor has two ways of delivering a report to you, using a HTTPS POST
   request and / or delivery to your SFTP server.
 ---
 
 # Delivery methods
 
-### HTTP delivery
+### HTTPS delivery
 
 Using the Product Key and Decryption key, you will be able to receive the reports to your specified endpoint and decrypt them. [Instantor API](https://www.instantor.com/api/doc#api-download) provides all the necessary functionality for decrypting the payload, and are available for .NET, Java and PHP.
 
 #### Environments and Callback URLs
 
-You are required to provide Instantor tech support with a **Callback URL**, which Instantor will configure for your integration. 
-
-You can ask Instantor to set any number of environments configured to send reports to any number of callback URLs. 
-
-Parameter 'environment' is used to control the endpoint for delivering data.
+You are required to provide Instantor [tech support](mailto:tech@instantor.com) with a Callback URL, which Instantor will configure for your integration. You can ask Instantor to configure any number of environments for you to send reports to any number of callback URLs \(production environment, or staging, or test, etc.\) Parameter "environment" purpose is the ability for your to set the endpoint for the data, i.e. to control where Instantor delivers the data. In the fronted, when instancing Instantor IFrame, you can set parameter "environment" and assign it a value: itor.userParam\('environment','production'\); -- data will be sent to production URL or itor.userParam\('environment','test'\); -- data will be sent to test URL Furthermore, we will return this value in the corresponding report for the request that has been initiated. You will find in the report as: "miscParams":\[ { "name":"environment", "value":"test" } If no environment is set, data will be sent to the production URL.
 
 ```text
  itor.userParam('environment', 'test');
@@ -28,7 +24,7 @@ Most clients require two environments - "production" and "stage", where producti
 
 ### Expected response
 
-After data delivery and decryption, the client is required to respond to the original HTTP request with plain text message in form of`OK: <msg_id>`, where `<msg_id>`  is unique identifier for that report and is sent as a POST parameter with key msg\_id.
+After data delivery and decryption, the client is required to respond to the original HTTPS request with plain text message in form of`OK: <msg_id>`, where `<msg_id>`  is unique identifier for that report and is sent as a POST parameter with key msg\_id.
 
 #### Example: 
 
@@ -48,25 +44,21 @@ OK: msg-154c798aa69-1463637551721
 
 You can download the latest version of the Instantor Java SDK here: 
 
-{% embed url="https://instantor-api-0.4.5-java.zip" %}
-
-
+[https://www.instantor.com/api/doc/static/instantor-api-0.4.5-java.zip](https://www.instantor.com/api/doc/static/instantor-api-0.4.5-java.zip)
 
 #### PHP SDK
 
- You can download the latest version of the Instantor PHP SDK here
+You can download the latest version of the Instantor PHP SDK here:
 
-{% embed url="https://instantor-api-php-0.1.4.zi" %}
+[https://www.instantor.com/api/doc/static/instantor-api-php-0.1.4.zip](https://www.instantor.com/api/doc/static/instantor-api-php-0.1.4.zip)
 
-{% embed url="https://instantor-api-php-7.zip" %}
+[https://www.instantor.com/api/doc/static/instantor-api-php-7.zip](https://www.instantor.com/api/doc/static/instantor-api-php-7.zip)
 
 #### .NET API 
 
- You can download the latest version of the Instantor .NET API here
+You can download the latest version of the Instantor .NET API here
 
-{% embed url="https://instantor-api-net-0.5.zip" %}
-
-
+[https://www.instantor.com/api/doc/static/instantor-api-net-0.5.zip](https://www.instantor.com/api/doc/static/instantor-api-net-0.5.zip)
 
 ### SFTP delivery
 
