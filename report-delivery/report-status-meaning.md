@@ -51,10 +51,5 @@ description: >-
         </ul>
       </td>
     </tr>
-    <tr>
-      <td style="text-align:left">bank_error</td>
-      <td style="text-align:left">An error occurred during data collection process. Most common cause is
-        bank&apos;s service unavailable</td>
-    </tr>
   </tbody>
 </table>
