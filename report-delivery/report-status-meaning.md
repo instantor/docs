@@ -49,5 +49,10 @@ description: >-
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">blocked</td>
+      <td style="text-align:left">Data collection process was blocked because there is a previous process
+        which is still in progress.</td>
+    </tr>
   </tbody>
 </table>
