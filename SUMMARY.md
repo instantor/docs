@@ -16,7 +16,7 @@
 
 ## Report delivery
 
-* [Introduction](report-delivery/introduction.md)
+* [Delivery introduction](report-delivery/introduction.md)
 * [Delivery methods](report-delivery/step-by-step-guide.md)
 * [Report example](report-delivery/untitled.md)
 * [Report status definitions](report-delivery/report-status-meaning.md)

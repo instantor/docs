@@ -1,7 +1,7 @@
 ---
 description: >-
   This page provides step-by-step instructions on how to integrate the Instantor
-  Widget into your website. The Widget allows your customers to connect to their
+  Widget into your webpage. The Widget allows your customers to connect to their
   bank through Instantor.
 ---
 
@@ -84,7 +84,7 @@ Make sure to replace `Product Key` in the example with the the Product key you h
 
 ### Step 5 - Inject information about the customer \(optional\)
 
-To identify a customer in your process, Instantor allows you to inject customer information in the report. You can add as many customer/request-specific information as you need. It will be stored as key-value pairs, and is a free-form, with some special keywords. You may find these user parameters under the **userParam: miscEntryList** section of the report you receive.
+To identify a customer in your process, Instantor allows you to inject customer information in the report. You can add as many customer/request-specific information as you need. It will be stored as key-value pairs, and is a free-form, with some special keywords. You will find these user parameters under the **userParam: miscEntryList** section of the report you receive.
 
 {% hint style="info" %}
 The following example extends the code-block as mentioned in [Step 4 - Initialize the Instantor object](a-step-by-step-guide.md#step-4-initialize-the-instantor-object).

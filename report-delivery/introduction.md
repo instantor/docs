@@ -1,4 +1,4 @@
-# Introduction
+# Delivery introduction
 
 Once the Widget has been implemented on your website the customer can enter the data collection process. The data collection process begins when the customer completes a successful login on their respective online bank interface in the iFrame.
 

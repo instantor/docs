@@ -7,19 +7,17 @@ description: >-
 
 # Introduction
 
-Welcome to the Instantor API documentation page! Here you can find all the information on how to integrate with and use the Instantor Widget on your website. This documentation consists of two parts, the integration of our customer facing frontend solution into your website and the delivery of our reports to you.
+Welcome to the Instantor integration documentation! There are two parts when it comes to getting up and running with Instantor. The Instantor Widget and the Instantor report delivery. In this documentation you will find all the necessary information on how to integrate the Instantor Widget on your website as well as how to prepare for the report delivery. 
 
-![](.gitbook/assets/how-instantor-works-4steps.png)
+![How Instantor works](.gitbook/assets/how-instantor-works-4steps.png)
 
-The frontend facing solution you will integrate by embedding a code snippet on your website within your loan application flow.
+Generally speaking the Instantor Widget is placed within the loan application flow on the webpage of the client. Once a customer lands the Instantor Widget on the client webpage, this marks the start of the Instantor process. Any data collected from the bank during the process will be encrypted and send as HTTP POST request to a client's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. Once you have received the report in a JSON object, you will be able to use your decision engine based on the data we provide.  
 
-Once a loan applicant has entered the Instantor process, the data collected from the bank will be encrypted and send as HTTP POST request to a client's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. Once you have received the report in a JSON object, you will be able to use your decision engine based on the data we provide.  
-
-| Glossary |  |
+| Glossary | Definition |
 | :--- | :--- |
-| Widget | The Instantor Widget is integrated into the _client's_ website, providing access to Instantor's services. |
-| Client | Banks, financial service providers and FinTech's partnering with Instantor. |
-| Customer | The loan applicant in the _client_ onboarding flow. |
+| Widget | The Instantor Widget is an `<iframe>` HTML element that is the portal to the Instantor service. |
+| Client | Any business or organisation that is using Instantor products and services. |
+| Customer | Any individual that is customer to a client. |
 | Product Key | A unique identifier for your product configuration |
 | Decryption Key | A key used to decrypt the report delivered to you |
 | Callback URL | An endpoint ****within your IT infrastructure, that can receive the encrypted reports |
