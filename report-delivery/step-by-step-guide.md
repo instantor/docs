@@ -12,15 +12,7 @@ Using the Product Key and Decryption key, you will be able to receive the report
 
 #### Environments and Callback URLs
 
-You are required to provide Instantor [tech support](mailto:tech@instantor.com) with a Callback URL, which Instantor will configure for your integration. You can ask Instantor to configure any number of environments for you to send reports to any number of callback URLs \(production environment, or staging, or test, etc.\) Parameter "environment" purpose is the ability for your to set the endpoint for the data, i.e. to control where Instantor delivers the data. In the fronted, when instancing Instantor IFrame, you can set parameter "environment" and assign it a value: itor.userParam\('environment','production'\); -- data will be sent to production URL or itor.userParam\('environment','test'\); -- data will be sent to test URL Furthermore, we will return this value in the corresponding report for the request that has been initiated. You will find in the report as: "miscParams":\[ { "name":"environment", "value":"test" } If no environment is set, data will be sent to the production URL.
-
-```text
- itor.userParam('environment', 'test');
-```
-
-{% hint style="info" %}
-Most clients require two environments - "production" and "stage", where production is set as the default environment. 
-{% endhint %}
+You are required to provide Instantor [tech support](mailto:tech@instantor.com) with atleast one Callback URL. Instantor will configure that Callback URL for your production environment. You can ask Instantor to configure any number of environments \(production environment, or staging, or test, etc.\) for you, including a unique Callback URL for each environment. E.g. if a client would like to receive reports from their test-environment to a Callback URL associated to that test-environment. Please read more in the [Identify your customer section](../javascript-api/.userparam.md#special-purpose-keys) on how to specify the environment in your webpage integration.
 
 ### Expected response
 

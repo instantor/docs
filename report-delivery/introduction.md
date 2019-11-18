@@ -1,6 +1,6 @@
 # Delivery introduction
 
-Once the Widget has been implemented on your website the customer can enter the data collection process. The data collection process begins when the customer completes a successful login on their respective online bank interface in the iFrame.
+Once the Widget has been implemented on your website the customer can enter the data collection process. The data collection process begins when the customer completes a successful login on their respective online bank interface in the Widget.
 
 As data is being received from the bank - one or more reports are compiled and sent to you as client as a HTTPS POST request to a pre-defined callback URL. The data report sent is encrypted, which you can decrypt using the decryption key provided to you by Instantor.
 

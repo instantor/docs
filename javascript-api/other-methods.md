@@ -1,5 +1,5 @@
 ---
-description: Additional methods that can be used in combination with the iFrame.
+description: Additional methods that can be used in combination with the Widget.
 ---
 
 # Other methods
@@ -35,7 +35,7 @@ Where payload has the following format:
 
 ### .destroy
 
-The **destroy** method dereferences the initialized iframe, removes its DOM element, removes all its referenced callback functions and event listeners.
+The **destroy** method dereferences the initialized `<iframe>`, removes the DOM element, removes all its referenced callback functions and event listeners.
 
 ```javascript
 instantor.destroy()
