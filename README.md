@@ -11,11 +11,11 @@ Welcome to the Instantor integration documentation! There are two parts when it 
 
 ![How Instantor works](.gitbook/assets/how-instantor-works-4steps.png)
 
-Generally speaking the Instantor Widget is placed within the loan application flow on the webpage of the client. Once a customer lands the Instantor Widget on the client webpage, this marks the start of the Instantor process. Any data collected from the bank during the process will be encrypted and send as HTTP POST request to a client's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. Once you have received the report in a JSON object, you will be able to use your decision engine based on the data we provide.  
+Generally speaking the Instantor Widget is placed within the loan application flow on the webpage of the client. Once a customer lands the Instantor Widget on the client webpage, this marks the start of the Instantor process. Any data collected from the bank during the process will be encrypted and send as HTTPS POST request to a client's predefined endpoint URL. Meaning you will be required to provide a callback URL to Instantor. Once you have received the report in a JSON format, you will be able to use your decision engine based on the data we provide.  
 
 | Glossary | Definition |
 | :--- | :--- |
-| Widget | The Instantor Widget is an `<iframe>` HTML element that is the portal to the Instantor service. |
+| Widget | The Instantor Widget is a script is the portal to the Instantor service. |
 | Client | Any business or organisation that is using Instantor products and services. |
 | Customer | Any individual that is customer to a client. |
 | Product Key | A unique identifier for your product configuration |

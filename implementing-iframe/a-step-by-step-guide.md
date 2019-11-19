@@ -94,14 +94,14 @@ The following example extends the code-block as mentioned in [Step 4 - Initializ
 <script>
   var itor = new Instantor('Product Key');
 
-  itor.userParam('user_identification', '12345678901');
-  itor.userParam('firstName', 'NAME');
-  itor.userParam('lastName', 'SURNAME');
-  itor.userParam('account', '7890 7890 7890 78');
+instantor.userParam('first-name', 'John');
+instantor.userParam('last-name', 'Doe');
+instantor.userParam('unique-user-id', '123456');
+
 </script>
 ```
 
-A list of keys that can be used include: _firstName, lastName, email, account, personal\_id, SSN or personalNumber, DNI and clientNumber._ You can read more about userParam keywords in the [.userParam section](../javascript-api/.userparam.md) of this documentation guide.
+You can read more about userParam keywords in the [Identify your customer](../javascript-api/.userparam.md) section of this documentation guide.
 
 {% hint style="warning" %}
 **IMPORTANT!**
@@ -121,10 +121,9 @@ The best practice is to assign `<div>` element as containing – the `<iframe>` 
 <script>
   var itor = new Instantor('Product Key');
 
-  itor.userParam('user_identification', '12345678901');
-  itor.userParam('firstName', 'NAME');
-  itor.userParam('lastName', 'SURNAME');
-  itor.userParam('account', '7890 7890 7890 78');
+instantor.userParam('first-name', 'John');
+instantor.userParam('last-name', 'Doe');
+instantor.userParam('unique-user-id', '123456');
 
   itor.load('#itor');
 </script>
