@@ -58,7 +58,7 @@ Never copy the script to your server. The script is frequently updated to reflec
 
 The Instantor Widget is essentially an `<iframe>` on your website. The `<iframe>` requires a DOM element in your HTML code where it will get injected.  That can be any block-level HTML element – for example, a `<div>`, or `<section>` element. 
 
-For example, place a `<div>` block-level HTML element with  `id="itor"` inside your HTML:
+For example, place a `<div>` block-level HTML element with  `id="instantor_div"` inside your HTML:
 
 ```markup
 <div id="instantor_div"></div>
@@ -111,7 +111,7 @@ Once the bank login form is loaded, all additional customer information will be 
 
 ### Step 6 - Load the Instantor Widget
 
-To load the Instantor Widget on your website, make sure the `<itor>` __object has been initialised with the correct product key provided by Instantor. Optionally, as described in step 5, you may injected some customer information using the [.userParam](../javascript-api/.userparam.md). 
+To load the Instantor Widget on your website, make sure the `Instantor` __object has been initialised with the correct product key provided by Instantor. Optionally, as described in step 5, you may inject some customer information using the [.userParam](../javascript-api/.userparam.md). 
 
 {% hint style="info" %}
 The best practice is to assign `<div>` element as containing – the `<iframe>` is a block-level element, so it should be avoided injecting it into inline-level element. Use method `load` to start the injector. 
