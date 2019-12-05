@@ -27,25 +27,25 @@ The Instantor script file needs to be linked in your page. Add the following cod
 #### For European markets:
 
 ```javascript
-<script type="text/javascript" src="
-https://frame.euc1.instantor.com/instantor-0.7.3.min.js
-"></script>
+<script type="text/javascript"
+    src="https://frame.euc1.instantor.com/instantor-0.7.3.min.js">
+</script>
 ```
 
 #### For Latin American markets:
 
 ```javascript
-<script type="text/javascript" src="
-https://frame.use2.instantor.com/instantor-0.7.3.min.js
-"></script>
+<script type="text/javascript"
+    src="https://frame.use2.instantor.com/instantor-0.7.3.min.js">
+</script>
 ```
 
 #### For Southeast Asian markets:
 
 ```javascript
-<script type="text/javascript" src="
-https://frame.apse1.instantor.com/instantor-0.7.3.min.js
-"></script>
+<script type="text/javascript"
+    src="https://frame.apse1.instantor.com/instantor-0.7.3.min.js">
+</script>
 ```
 
 {% hint style="danger" %}
@@ -94,9 +94,9 @@ The following example extends the code-block as mentioned in [Step 4 - Initializ
 <script>
   var itor = new Instantor('Product Key');
 
-itor.userParam('first-name', 'John');
-itor.userParam('last-name', 'Doe');
-itor.userParam('unique-user-id', '123456');
+  itor.userParam('first-name', 'John');
+  itor.userParam('last-name', 'Doe');
+  itor.userParam('unique-user-id', '123456');
 
 </script>
 ```
@@ -121,9 +121,9 @@ The best practice is to assign `<div>` element as containing – the `<iframe>` 
 <script>
   var itor = new Instantor('Product Key');
 
-itor.userParam('first-name', 'John');
-itor.userParam('last-name', 'Doe');
-itor.userParam('unique-user-id', '123456');
+  itor.userParam('first-name', 'John');
+  itor.userParam('last-name', 'Doe');
+  itor.userParam('unique-user-id', '123456');
 
   itor.load('#itor');
 </script>
