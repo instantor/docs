@@ -61,7 +61,7 @@ The Instantor Widget is essentially an `<iframe>` on your website. The `<iframe>
 For example, place a `<div>` block-level HTML element with  `id="itor"` inside your HTML:
 
 ```markup
-<div id="itor"></div>
+<div id="instantor_div"></div>
 ```
 
 {% hint style="warning" %}
@@ -125,7 +125,7 @@ The best practice is to assign `<div>` element as containing – the `<iframe>` 
   instantor.userParam('last-name', 'Doe');
   instantor.userParam('unique-user-id', '123456');
 
-  instantor.load('#itor');
+  instantor.load('#instantor_div');
 </script>
 ```
 
