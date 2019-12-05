@@ -94,9 +94,9 @@ The following example extends the code-block as mentioned in [Step 4 - Initializ
 <script>
   var itor = new Instantor('Product Key');
 
-instantor.userParam('first-name', 'John');
-instantor.userParam('last-name', 'Doe');
-instantor.userParam('unique-user-id', '123456');
+itor.userParam('first-name', 'John');
+itor.userParam('last-name', 'Doe');
+itor.userParam('unique-user-id', '123456');
 
 </script>
 ```
@@ -121,9 +121,9 @@ The best practice is to assign `<div>` element as containing – the `<iframe>` 
 <script>
   var itor = new Instantor('Product Key');
 
-instantor.userParam('first-name', 'John');
-instantor.userParam('last-name', 'Doe');
-instantor.userParam('unique-user-id', '123456');
+itor.userParam('first-name', 'John');
+itor.userParam('last-name', 'Doe');
+itor.userParam('unique-user-id', '123456');
 
   itor.load('#itor');
 </script>
