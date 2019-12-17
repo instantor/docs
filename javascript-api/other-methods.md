@@ -6,7 +6,7 @@ description: Additional methods that can be used in combination with the Widget.
 
 ### .getBankList
 
-The **getBankList** method fetches all available banks, and runs the **callbackFunction** with the response as argument
+The **getBankList** method fetches all available banks, and runs the **callbackFunction** with the response as argument. Be aware this methods requires Instantor to whitelist you. Please contact Instantor tech support when planning to use this method.
 
 ```javascript
 instantor.getBankList(callbackFunction(payload))
