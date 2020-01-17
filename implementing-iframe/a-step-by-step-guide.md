@@ -70,7 +70,7 @@ Please, make sure your CSS code is not interfering with the Instantor `<iframe>`
 
 ### Step 4 - Initialize the Instantor object
 
-Once you have linked the script, you'll need to add another code-block to your HTML file, and initialize a new Instantor JavaScript object \(the object\). To successfully initialize the object, you need to pass the **Product Key** you received from Instantor as an argument to the object constructor. You can place the following code-block under the code-block from [Step 3 - Linking the script](a-step-by-step-guide.md#step-3-linking-the-script).
+Once you have linked the script, you'll need to add another code-block to your HTML file, and initialize a new Instantor JavaScript object \(the object\). To successfully initialize the object, you need to pass the **Product Key** you received from Instantor as an argument to the object constructor. Place the following code-block after the code-block from [Step 3 - Linking the script](a-step-by-step-guide.md#step-3-linking-the-script).
 
 ```javascript
 <script>
