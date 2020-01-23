@@ -30,6 +30,10 @@ After data delivery and decryption, the client is required to respond to the ori
 OK: msg-154c798aa69-1463637551721
 ```
 
+{% hint style="info" %}
+If the endpoint throws an exception/error or doesn’t contain msg\_id our system waits for 30 seconds and tries to deliver the report again. We push the same report 3 times with a 30-second interval. If all 3 attempts are unsuccessful, our system marks it as a failure. 
+{% endhint %}
+
 ### SDK to receive reports
 
 #### Java SDK 
