@@ -8,7 +8,7 @@ description: >-
 
 ### HTTPS delivery
 
-Using the Product Key and Decryption key, you will be able to receive the reports to your specified endpoint and decrypt them. [Instantor API](https://www.instantor.com/api/doc#api-download) provides all the necessary functionality for decrypting the payload, and are available for .NET, Java and PHP.
+Using the Product Key and Decryption key, you will be able to receive the reports to your specified endpoint and decrypt them. Instantor API provides all the necessary functionality for decrypting the payload, and are available for .NET, Java and PHP.
 
 #### Environments and Callback URLs
 
